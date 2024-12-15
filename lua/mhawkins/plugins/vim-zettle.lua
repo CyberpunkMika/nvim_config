@@ -1,6 +1,6 @@
 return {
 	"michal-h21/vim-zettel",
-	dependencies = { "junegunn/fzf", "junegunn/fzf.vim" }, -- Example dependencies
+	dependencies = { "junegunn/fzf", "junegunn/fzf.vim", "vimwiki/vimwiki" }, -- Example dependencies
 	config = function()
 		-- Example configuration settings
 		vim.g.zettel_default_file_extension = ".md"

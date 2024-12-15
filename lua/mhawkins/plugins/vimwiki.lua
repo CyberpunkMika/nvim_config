@@ -15,7 +15,15 @@ return {
 				syntax = "markdown",
 				ext = ".md",
 			},
+			{
+				path = "~/personalwiki/",
+				syntax = "markdown",
+				ext = ".md",
+			},
 		}
+
+		vim.g.vimwiki_default_list = 1
+
 		vim.g.vimwiki_ext2syntax = {
 			[".md"] = "markdown",
 			[".markdown"] = "markdown",
